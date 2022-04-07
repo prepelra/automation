@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="18.855">
+    <testcase classname="Request A Demo Form" name="Request_Demo_As_Not_Login_User" time="9.686">
+        <system-out>
+            <![CDATA[Given I search 'Aodocs' on Google...........................................passed
+And I press on the Aodocs link..............................................passed
+Then Aodocs Home Page is opened.............................................passed
+When I click button Request a Demo..........................................passed
+And the Contact Form is opened..............................................passed
+And I fill First Name with "Lucas"..........................................passed
+And I fill Last Name with ""................................................passed
+And I fill Email with "dwdwdwed"............................................passed
+And I fill Company Name with "".............................................passed
+And I select "0-4 employees" from Company Size..............................passed
+Then "Please complete this required field." should appear under LastName....passed
+And "" should appear under CompanyName......................................passed
+And "Email must be formatted correctly." should appear under Mail...........passed
+And "Please complete this required field." should appear under CompanyName..passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Request A Demo Form" name="Request_Demo_As_Not_Login_User_2" time="8.523">
+        <system-out>
+            <![CDATA[Given I search 'Aodocs' on Google...........................................passed
+And I press on the Aodocs link..............................................passed
+Then Aodocs Home Page is opened.............................................passed
+When I click button Request a Demo..........................................passed
+And the Contact Form is opened..............................................passed
+And I fill First Name with ""...............................................passed
+And I fill Last Name with ""................................................passed
+And I fill Email with "dgfgdfgd"............................................passed
+And I fill Company Name with "".............................................passed
+And I select "51-350 employees" from Company Size...........................passed
+Then "Please complete this required field." should appear under LastName....passed
+And "Please complete this required field." should appear under CompanyName..passed
+And "Email must be formatted correctly." should appear under Mail...........passed
+And "Please complete this required field." should appear under CompanyName..passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
