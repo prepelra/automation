@@ -1,4 +1,4 @@
-# AODocs Selenium technical test
+
 
 This project is about assessing QA automation abilities.
 
